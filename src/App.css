@@ -1,0 +1,95 @@
+/* body{
+    background-color: lightgray;
+} */
+
+.app{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-create{
+    width:450px;
+}
+
+.task-update{
+    width:100%;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+}
+.inputForm label{
+    margin-bottom:5px;
+}
+.task-input{
+    margin-bottom:10px;
+    padding:10px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+.task-button{
+    padding:10px;
+    background-color: darkslategray;
+    color:white;
+    border:1px solid darkslategray;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.update-button{
+    background-color: blueviolet;
+}
+
+.task-list{
+    display: flex;
+    flex-wrap: wrap; /* sığmıyorsa aşağı in */
+    justify-content: center;
+}
+
+.task-item{
+    background-color: lightgray;
+    border:1px solid lightslategray;
+    border-radius: 25px;
+    width:350px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+}
+
+.task-item h3{
+    margin:0px;
+}
+
+#delete-button{
+    padding:5px;
+    font-size:15px;
+    width:80px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+#edit-button{
+    padding:5px;
+    font-size:15px;
+    width:80px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+
